@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/textView_fragment"
+            android:icon="@drawable/ic_android"
+            android:title="TextView in Fragment" />
+        <item
+            android:id="@+id/editText_fragment"
+            android:icon="@drawable/ic_android"
+            android:title="EditText in Fragment" />
+        <item
+            android:id="@+id/button_fragment"
+            android:icon="@drawable/ic_android"
+            android:title="Button in Fragment" />
+    </group>
+
+    <item android:title="Title">
+        <menu>
+            <item
+                android:id="@+id/listView_fragment"
+                android:icon="@drawable/ic_android"
+                android:title="ListView in Fragment" />
+            <item
+                android:id="@+id/recyclerView_fragment"
+                android:icon="@drawable/ic_android"
+                android:title="RecyclerView in Fragment" />
+            <item
+                android:id="@+id/CardView_fragment"
+                android:icon="@drawable/ic_android"
+                android:title="CardView in Fragment" />
+        </menu>
+    </item>
+
+</menu>
